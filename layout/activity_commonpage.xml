@@ -1,0 +1,37 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_commonpage" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingBottom="@dimen/activity_vertical_margin" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" tools:context="com.example.mahe.attendease.commonpage">
+<ScrollView android:id="@+id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/greybackground" android:orientation="vertical">
+<LinearLayout android:layout_width="fill_parent" android:layout_height="48dp" android:background="#1F4499" android:orientation="horizontal" android:layout_alignParentTop="true">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="COURSES " android:textColor="#ffffff" android:layout_marginLeft="25dp" android:textSize="18sp" android:textStyle="bold" android:layout_gravity="center_horizontal|center_vertical"/>
+</LinearLayout>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="30dp" android:orientation="vertical" android:background="@drawable/greybackground">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Class 1" android:textColor="#363639" android:layout_marginLeft="2dp" android:textSize="18sp" android:textStyle="bold" android:layout_gravity="center_horizontal|center_vertical" android:id="@+id/tv1"/>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Subject Code" android:textColor="#363639" android:layout_marginLeft="2dp" android:textSize="18sp" android:textStyle="bold" android:layout_gravity="center_horizontal|center_vertical" android:id="@+id/tv2"/>
+<Button android:layout_width="190dp" android:layout_height="38dp" android:layout_gravity="center_horizontal" android:layout_marginTop="16dp" android:text="View Class" android:textColor="#fff" android:textSize="13dp" android:background="#1F4499" android:id="@+id/b1"/>
+</LinearLayout>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical"> </LinearLayout>
+<!--  1st section complete - class1 info -->
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="30dp" android:orientation="vertical" android:background="@drawable/greybackground">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Class 2" android:textColor="#363639" android:layout_marginLeft="2dp" android:textSize="18sp" android:textStyle="bold" android:layout_gravity="center_horizontal|center_vertical" android:id="@+id/tv3"/>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Subject Code" android:textColor="#363639" android:layout_marginLeft="2dp" android:textSize="18sp" android:textStyle="bold" android:layout_gravity="center_horizontal|center_vertical" android:id="@+id/tv4"/>
+<Button android:layout_width="190dp" android:layout_height="38dp" android:layout_gravity="center_horizontal" android:layout_marginTop="16dp" android:text="View Class" android:textColor="#fff" android:textSize="13dp" android:background="#1F4499" android:id="@+id/b2"/>
+</LinearLayout>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical"> </LinearLayout>
+<!--   -->
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="30dp" android:orientation="vertical" android:background="@drawable/greybackground">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Class 3" android:textColor="#363639" android:layout_marginLeft="2dp" android:textSize="18sp" android:textStyle="bold" android:layout_gravity="center_horizontal|center_vertical" android:id="@+id/tv5"/>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Subject Code" android:textColor="#363639" android:layout_marginLeft="2dp" android:textSize="18sp" android:textStyle="bold" android:layout_gravity="center_horizontal|center_vertical" android:id="@+id/tv6"/>
+<Button android:layout_width="190dp" android:layout_height="38dp" android:layout_gravity="center_horizontal" android:layout_marginTop="16dp" android:text="View Class" android:textColor="#fff" android:textSize="13dp" android:background="#1F4499" android:id="@+id/b3"/>
+</LinearLayout>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical"> </LinearLayout>
+<!--  class 2 details complete -->
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="30dp" android:orientation="vertical" android:background="@drawable/greybackground">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Class 4" android:textColor="#363639" android:layout_marginLeft="2dp" android:textSize="18sp" android:textStyle="bold" android:layout_gravity="center_horizontal|center_vertical" android:id="@+id/tv7"/>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Subject Code" android:textColor="#363639" android:layout_marginLeft="2dp" android:textSize="18sp" android:textStyle="bold" android:layout_gravity="center_horizontal|center_vertical" android:id="@+id/tv8"/>
+<Button android:layout_width="190dp" android:layout_height="38dp" android:layout_gravity="center_horizontal" android:layout_marginTop="16dp" android:text="View Class" android:textColor="#fff" android:textSize="13dp" android:background="#1F4499" android:id="@+id/b4"/>
+</LinearLayout>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical"> </LinearLayout>
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>
