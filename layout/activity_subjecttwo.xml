@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_subjectfour"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mahe.attendease.subjectfour">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/greybackground"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:background="#1F4499"
+                android:orientation="horizontal"
+                android:layout_alignParentTop="true">
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subject Details"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical"
+                android:background="@drawable/greybackground">
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Class 4"
+                    android:textColor="#363639"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:id="@+id/tv1" />
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subject Code"
+                    android:textColor="#363639"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:id="@+id/tv2" />
+
+                <Button android:layout_width="190dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="16dp"
+                    android:text="View ClassList"
+                    android:textColor="#fff"
+                    android:textSize="13dp"
+                    android:background="#1F4499"
+                    android:id="@+id/b11" />
+                <Button android:layout_width="190dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="16dp"
+                    android:text="Take attendance"
+                    android:textColor="#fff"
+                    android:textSize="13dp"
+                    android:background="#1F4499"
+                    android:id="@+id/b22" />
+
+                <Button android:layout_width="190dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="16dp"
+                    android:text="View Statistics"
+                    android:textColor="#fff"
+                    android:textSize="13dp"
+                    android:background="#1F4499"
+                    android:id="@+id/b33" />
+
+
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
